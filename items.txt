@@ -1,0 +1,5 @@
+KitKat::2.00::2
+Snickers::2.10::3
+Hot Cheetos::1.75::5
+M&Ms::1.50::5
+Doritos::1.80::5
