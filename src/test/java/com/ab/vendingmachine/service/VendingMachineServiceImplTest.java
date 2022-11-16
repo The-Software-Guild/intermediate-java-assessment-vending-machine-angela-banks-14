@@ -2,7 +2,8 @@ package com.ab.vendingmachine.service;
 
 import com.ab.vendingmachine.dao.*;
 import com.ab.vendingmachine.dto.Item;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
+
 import java.math.BigDecimal;
 import static org.junit.Assert.fail;
 
@@ -16,6 +17,27 @@ public class VendingMachineServiceImplTest {
 
     // empty constructor
     public VendingMachineServiceImplTest() {
+    }
+
+    @BeforeAll
+    public static void setUpClass() {
+    }
+
+    @AfterAll
+    public static void tearDownClass() {
+    }
+
+    @BeforeEach
+    public void setUp() {
+    }
+
+    @AfterEach
+    public void tearDown() {
+    }
+
+    @Test
+    public void testSomeMethod() {
+        fail("The test case is a prototype.");
     }
 
     // tests
